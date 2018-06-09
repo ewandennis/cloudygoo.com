@@ -1,0 +1,20 @@
+{% from "partials/taglinks.njk" import tagLinks %}
+{% extends "base.njk" %}
+<h3>tagged {{tag}}</h3>
+    {% block header %}
+      <a href="../../">Home</a>
+    {{ tagLinks("../..", tagList) }}
+    {% endblock %}
+
+{% block main %}
+  {% for page in pagination.files %}
+    <header>
+      {% set tagcomma = joiner() %}
+      <h3>
+        {{ page.stats.mtime.toDateString() }} on{% for tag in page.tags %}{{tagcomma()}} {{tag.name}}{% endfor %}
+      </h3>
+      <h2><a href="../../{{page.path}}/">{{ page.title }}</a></h2>
+    </header>
+    <p>{{ page.contents | safe | striptags | truncate(300, true, '...') }}</p>
+  {% endfor %}
+{% endblock %}

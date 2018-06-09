@@ -1,0 +1,24 @@
+{% from "partials/taglinks.njk" import tagLinks %}
+<html>
+<head>
+  <title>{{ siteTitle }}</title>
+  <link rel="stylesheet" href="/cloudygoo.css" />
+</head>
+<body>
+  <nav>
+    <div class="vertical">
+      <h1>{{siteTitle}}</h1>
+      <h2>{{siteDescription}}</h2>
+      {% block header %}
+      {{ tagLinks("", tagList) }}
+      {% endblock %}
+      <a href="https://github.com/ewandennis">GitHub</a>
+      <a href="https://twitter.com/ewanovitch">Twitter</a>
+    </div>
+  </nav>
+  <main>
+    {% block main %}
+    {% endblock %}
+  </main>
+</body>
+</html>

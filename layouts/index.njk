@@ -1,0 +1,13 @@
+{% extends "base.njk" %}
+{% block main %}
+  {% for page in article %}
+    <header>
+      {% set tagcomma = joiner() %}
+      <h3>
+        {{ page.stats.mtime.toDateString() }} on{% for tag in page.tags %}{{tagcomma()}} {{tag.name}}{% endfor %}
+      </h3>
+      <h2><a href="{{page.path}}/">{{ page.title }}</a></h2>
+    </header>
+    <p>{{ page.contents | safe | striptags | truncate(300, true, '...') }}</p>
+  {% endfor %}
+{% endblock %}

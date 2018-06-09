@@ -1,0 +1,78 @@
+body {
+  font-family: Calibri, Optima, Arial, sans-serif;
+  font-size: 15pt;
+  color: #3A4145;
+  margin: 0;
+  padding: 0;
+  line-height: 32px;
+}
+
+h1, h2, h3, h4 {
+  font-family: Helvetica;
+  margin-top: 0.2rem;
+}
+
+h1 {
+  line-height: 3rem;
+}
+
+h2 {
+  line-height: 2.5rem;
+}
+
+nav {
+  background-image: url("/img/banner-1.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  width: 20rem;
+  height: 100%;
+  padding: 1rem;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+nav h1 {
+  font-size: 32pt;
+}
+
+nav h2 {
+  font-size: 15pt;
+  font-weight: normal;
+  line-height: 1.6rem;
+}
+
+nav a {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+main {
+  margin-left: 17rem;
+  padding: 3rem 6rem 0 10rem;
+}
+
+main h3 {
+  font-size: 11pt;
+  font-weight: normal;
+}
+
+p {
+
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+  }
+
+  main {
+    margin-left: 0px;
+    padding: 0 1rem 0 1rem;
+  }
+}
