@@ -1,6 +1,6 @@
 {% macro tagLinks(pathToRoot, tagList) %}
   <a href="{{pathToRoot}}">Home</a>
-  {% for tag, articles in tagList %}
+  {# {% for tag, articles in tagList %}
     <a href="{{pathToRoot}}/tag/{{tag}}/">{{tag | title}}</a>
-  {% endfor %}
+  {% endfor %} #}
 {% endmacro %}
