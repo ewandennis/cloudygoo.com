@@ -9,7 +9,7 @@
   {% for page in pagination.files %}
     <header>
       {% set tagcomma = joiner() %}
-      <h3>
+      <h3 class="articleDate">
         {{ page.stats.mtime.toDateString() }} on{% for tag in page.tags %}{{tagcomma()}} {{tag.name}}{% endfor %}
       </h3>
       <h1><a href="../../{{page.path}}/">{{ page.title }}</a></h1>

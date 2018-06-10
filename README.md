@@ -14,7 +14,7 @@ Built using [MetalSmith](http://www.metalsmith.io/).
 
  1. Clone this repo
  1. Install dependencies: `npm install`
- 1. Start a dev server: `npm start watch`
+ 1. Start a dev server: `npm start`
 
 You now have a local copy running on http://localhost:8080/
 
