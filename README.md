@@ -1,5 +1,7 @@
 # CloudyGoo
 
+[![Build Status](https://travis-ci.org/ewandennis/cloudygoo.com.svg?branch=master)](https://travis-ci.org/ewandennis/cloudygoo.com)
+
 Here lies the source content and build pipeline for www.cloudygoo.com.
 
 Built using [MetalSmith](http://www.metalsmith.io/).
