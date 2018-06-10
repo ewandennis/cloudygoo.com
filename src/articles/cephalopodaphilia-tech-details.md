@@ -67,7 +67,7 @@ The guiding calculation for our curve is then:
 
 Here's an example rendering using the above principle:
 
-<img src="/content/images/2015/04/tentaclecurve.png" alt="Tentacle curve" width="50%" />
+<img src="/media/tentaclecurve.png" alt="Tentacle curve" width="50%" />
 
 ##### Filling Out The Curve
 
@@ -95,7 +95,7 @@ _Note: strictly speaking dir gives a direction halfway between p(n) and p(n+1)._
 
 We can now draw our tentacle with **thickness** by drawing 'bones' along the curve or drawing either side of the tentacle by connecting the ends of each bone:
 
-<img src="/content/images/2015/05/tentaclepointsbonessides.png" alt="Tentacle shape" width="50%" />
+<img src="/media/tentaclepointsbonessides.png" alt="Tentacle shape" width="50%" />
 
 ##### 8 Tentacles Make A Cephalopod
 
@@ -105,7 +105,7 @@ Considered from another angle, we want a generalised way to calculate curve dire
 
 Our direction function will use a set of 'attractor' points spread over the image, each with a defined radius of influence.  The direction at a given position is the accumulated vector towards each point whose influence covers our sample position:
 
-<img src="/content/images/2015/05/vectorfieldframe.png" width="50%">
+<img src="/media/vectorfieldframe.png" width="50%">
 
 >Observation: tentacles are more flexible towards the ends.
 
@@ -115,17 +115,17 @@ Now we can apply the direction function to our model in a realistic way by scali
 
 And finally, here's our final model in action:
 
-<img alt="Tentacle Environment" src="/content/images/2015/04/tentacleenvironmentdetail-1.png" width="50%" />
+<img alt="Tentacle Environment" src="/media/tentacleenvironmentdetail-1.png" width="50%" />
 
 ##### Movement
 
 What happens if we move our direction function's attractor points around?
 
-![attractor field](/content/images/2015/05/cephvectorfield.gif)
+![attractor field](/media/cephvectorfield.gif)
 
 What does that movement do to the tentacles?
 
-<script src="/static/cephalopodaphilia/Processing.js/processing.min.js"></script>
-<canvas data-processing-sources="/static/cephalopodaphilia/Ceph6.pde" width="500" height="500"></canvas>
+<script src="/js/Processing.js/processing.min.js"></script>
+<canvas data-processing-sources="/media/Ceph6.pde" width="500" height="500"></canvas>
 
 Interesting.

@@ -8,7 +8,7 @@ When I was a child, Smarties were brightly coloured, candy coated, chocolate ovo
 
 Oddly enough, only the orange ones were orange flavoured, the rest were just chocolatey. On a quest to single out all the orange Smarties, I spent my festive downtime a few years ago designing and building a Smartie colour sorting machine. Here it is:
 
-![Smarticulator Mk I](/content/images/2016/12/SmarticulatorProjections.png)
+![Smarticulator Mk I](/media/SmarticulatorProjections.png)
 
 Building the Smarticulator was a great way to explore CAD, microcontrollers, motor control, sensor calibration and various other fields with occasional dips into food science and chocolate overdose along the way. The most unexpectedly interesting part was learning how to use a colour sensor to recognise the various Smartie colours and so that is the topic of this little post.
 
@@ -26,7 +26,7 @@ Some time in the 2000's, consumers had begun to learn a little about food additi
 
 I didn't know about that when I bought my test Smarties and so I was a tiny bit scandalised when they didn't perfectly match my childhood memories.
 
-![Smarties, old and new](/content/images/2016/12/Smarties_old_new-sml-1.png)
+![Smarties, old and new](/media/Smarties_old_new-sml-1.png)
 
 That image is by John Penton and Paul Hughes - their own work, [CC BY-SA 2.5](https://commons.wikimedia.org/w/index.php?curid=1791232). It came from the [Smarties Wikipedia page](https://en.wikipedia.org/wiki/Smarties), which is recommended reading.
 
@@ -34,7 +34,7 @@ An unfortunate side-effect of Nestl&eacute;'s move to natural colouring was lowe
 
 ### What *@^%ing Colour Is That Smartie?
 
-![How not to classify Smarties](/content/images/2016/12/BrownOrPink.jpg)
+![How not to classify Smarties](/media/BrownOrPink.jpg)
 
 Having read about the Southampton Six, I knew I needed a rigorous way to sort my Smarties by colour. I wanted to feed test Smarties through my colour sensor into some Clever Box that could group similarly coloured ones together. Then I would use those groups to sort all future Smarties. I also wanted to avoid labelling every test Smartie by colour beforehand because I had _a lot_ of Smarties and I'm basically lazy.
 
@@ -42,7 +42,7 @@ In the end, I settled on the [k-means clustering](https://en.wikipedia.org/wiki/
 
 I had 8 types of Smartie to account for: one for each colour. My colour sensor produced some rather muddy-looking red-green-blue (RGB) triplets (below left) from about 150 test Smarties but with k-means clustering I was able to produce a representative sensor reading for each Smartie (below right).
 
-![](/content/images/2016/12/SamplesAndClusters.png)
+![](/media/SamplesAndClusters.png)
 
 Given those representative or _colour group_ readings for each colour, the Smarticulator could "read" a Smartie, check which colour group it belonged to and put it with all the others of the same colour.
 
@@ -52,4 +52,4 @@ After all that, the Smarticulator worked nicely for the most part. It predictabl
 
 Anyway, I hope my colourful little holiday journey was diverting. It was an entertaining topic with lots of geeky avenues to get lost in. To finish up, here's the Smarticulator in action:
 
-![The Smarticulator is smarticulating](/content/images/2016/12/SmarticulatorInAction.jpg)
+![The Smarticulator is smarticulating](/media/SmarticulatorInAction.jpg)

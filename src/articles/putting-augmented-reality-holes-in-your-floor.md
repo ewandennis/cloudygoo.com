@@ -55,7 +55,7 @@ To get the inside-out effect in the excellent [Blender 3D modeller](https://www.
  1. Hit `Space` to open the search menu
  1. Type `flip normals` and hit `Return`
 
-![Cubes](/content/images/2018/01/cubes.png)
+![Cubes](/media/cubes.png)
 
 Now we can see the box's insides but we can still see the inside faces when looking at the box from the side. This gives a slightly jarring effect which we'd like to avoid and we also want to sink the box into the ground so it's only visible from directly above. 
 
@@ -116,6 +116,6 @@ Now we can create a material using our masked shader for our inside-out box and 
 
 The result looks something like this:
 
-![Holes in my kitchen floor](/content/images/2018/01/holes-1.png)
+![Holes in my kitchen floor](/media/holes-1.png)
 
-For the interested, [here is a Unity package containing a prefab including geometry, materials and shaders](/static/arholes/ARHoles.unitypackage).
+For the interested, [here is a Unity package containing a prefab including geometry, materials and shaders](/media/ARHoles.unitypackage).

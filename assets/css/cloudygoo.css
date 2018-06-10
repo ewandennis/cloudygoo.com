@@ -35,7 +35,9 @@ h5 {
 }
 
 img {
+  display: block;
   max-width: 80%;
+  margin: 0 auto;
 }
 
 a:hover {
