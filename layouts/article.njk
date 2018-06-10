@@ -1,7 +1,6 @@
 {% extends "base.njk" %}
 {% from "partials/taglinks.njk" import tagLinks %}
 {% block header %}
-  <a href="../../">Home</a>
   {{ tagLinks("../..", tagList) }}
 {% endblock %}
 {% block main %}

@@ -1,27 +1,64 @@
 body {
   font-family: Calibri, Optima, Arial, sans-serif;
-  font-size: 15pt;
-  color: #3A4145;
+  font-size: 14pt;
+  line-height: 32px;
   margin: 0;
   padding: 0;
-  line-height: 32px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-family: Helvetica;
-  margin-top: 0.2rem;
+  margin: 0.2rem 0 0.5rem 0;
 }
 
 h1 {
+  font-size: 34pt;
   line-height: 3rem;
+  letter-spacing: -1px;
 }
 
 h2 {
+  font-size: 30pt;
   line-height: 2.5rem;
+}
+
+h3 {
+  font-size: 28pt;
+}
+
+h4 {
+  font-size: 26pt;
+}
+
+h5 {
+  font-size: 24pt;
+}
+
+a:hover {
+  color: #aaa;
+}
+
+hr {
+  margin: 2rem 3rem 2rem 3rem;
+  border: 1px #ccc solid;
+}
+
+pre {
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+}
+
+blockquote {
+  border-left: 5px solid #ccc;
+  padding-left: 1rem; 
 }
 
 nav {
   background-image: url("/img/banner-1.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: 50% 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,38 +66,54 @@ nav {
   top: 0px;
   width: 20rem;
   height: 100%;
-  padding: 1rem;
+  padding: 0.75rem;
   text-align: center;
   font-family: Helvetica;
+  color: white;
+  text-shadow: 0 0 10px #303538;
 }
 
 nav h1 {
-  font-size: 32pt;
+  margin-bottom: 1rem;
 }
 
 nav h2 {
-  font-size: 15pt;
-  font-weight: normal;
+  font-size: 14pt;
+  font-weight: lighter;
   line-height: 1.6rem;
 }
 
 nav a {
   display: block;
-  margin-bottom: 1rem;
+  font-weight: lighter;
+  margin-bottom: 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-shadow: 0 0 20px #ccc;
+  color: white;
 }
 
 main {
   margin-left: 17rem;
   padding: 3rem 6rem 0 10rem;
+  color: #3A4145;
 }
 
-main h3 {
+main h1 {
+  color: #50585d;
+}
+
+h3.articleDate {
   font-size: 11pt;
   font-weight: normal;
+  margin-bottom: 0rem;
 }
 
-p {
-
+main a {
+  color: #3A4145;
 }
 
 @media screen and (max-width: 900px) {

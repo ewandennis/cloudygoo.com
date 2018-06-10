@@ -10,7 +10,7 @@ const markdown = require('metalsmith-markdown');
 const permalinks = require('metalsmith-permalinks');
 const assets = require('metalsmith-assets');
 
-const watchMe = false;
+const watchMe = true;
 
 const metalSmith = Metalsmith(__dirname);
 if (watchMe) {
@@ -59,7 +59,7 @@ metalSmith.metadata({
 .use(assets({ source: './assets', destination: '.' }))
 .use(debug())
 .use(writemetadata({
-  pattern: ['**/*'],
+  pattern: ['**/*.html'],
   ignorekeys: ['contents'],
   bufferencoding: 'utf8'
 }))
