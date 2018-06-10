@@ -8,7 +8,7 @@ Built using [MetalSmith](http://www.metalsmith.io/).
 
  - Node.js
 
-## Setup
+## Setup
 
  1. Clone this repo
  1. Install dependencies: `npm install`
