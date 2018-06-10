@@ -34,6 +34,10 @@ h5 {
   font-size: 24pt;
 }
 
+img {
+  max-width: 80%;
+}
+
 a:hover {
   color: #aaa;
 }
@@ -106,6 +110,10 @@ main h1 {
   color: #50585d;
 }
 
+main h1 a {
+  text-decoration: none;
+}
+
 h3.articleDate {
   font-size: 11pt;
   font-weight: normal;
@@ -125,9 +133,11 @@ main.error {
   /* justify-content: center; */
 }
 
-@media screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
   nav {
     position: static;
+    display: block;
+    box-sizing: border-box;
     width: 100%;
     height: auto;
     margin: 0px;
@@ -135,6 +145,6 @@ main.error {
 
   main {
     margin-left: 0px;
-    padding: 0 1rem 0 1rem;
+    padding: 2.5rem 2.5rem 0 2.5rem;
   }
 }
