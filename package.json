@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node index"
+    "start": "node watch",
+    "build": "node build",
+    "s3sync": "aws s3 sync . s3://www.cloudygoo.com --acl public-read"
   },
   "keywords": [],
   "author": "",
