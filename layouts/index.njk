@@ -4,7 +4,7 @@
     <header>
       {% set tagcomma = joiner() %}
       <h3 class="articleDate">
-        {{ page.stats.mtime.toDateString() }} on{% for tag in page.tags %}{{tagcomma()}} {{tag.name}}{% endfor %}
+        {{ page.stats.birthtime.toDateString() }} on{% for tag in page.tags %}{{tagcomma()}} {{tag.name}}{% endfor %}
       </h3>
       <h1><a href="{{page.path}}/">{{ page.title }}</a></h1>
     </header>

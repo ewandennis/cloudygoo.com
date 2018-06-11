@@ -22,7 +22,15 @@ pipeline(metalSmith)
 .use(writemetadata({
   pattern: ['**/*.html'],
   ignorekeys: ['contents'],
-  bufferencoding: 'utf8'
+  bufferencoding: 'utf8',
+  collections: {
+    article: {
+      output: {
+        path: 'articles.json',
+        asObject: true
+      }
+    }
+  }
 }))
 .build(err => {
   if (err) {
