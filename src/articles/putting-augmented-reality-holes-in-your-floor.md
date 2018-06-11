@@ -3,6 +3,7 @@ title: Putting Augmented Reality Holes In Your Floor
 layout: article.njk
 tags: coding,visuals
 created: 2018-01-02T12:00:00
+navImage: arholestitleimage.png
 ---
 
 [Android](https://developers.google.com/ar/) and [iOS](https://developer.apple.com/arkit/) both now have nascent augmented reality frameworks which brings AR tantalisingly close to lots of peoples' pockets, including mine.

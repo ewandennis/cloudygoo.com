@@ -6,7 +6,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'UA-62580465-1', { 'anonymize_ip': true });
   </script>
   <title>{{ siteTitle }}</title>
@@ -14,7 +13,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <nav>
+  {% if navImage %}
+    <nav style="background-image: url(/media/{{navImage}})">
+  {% else %}
+    <nav>
+  {% endif %}
     <div class="vertical">
       <h1>{{siteTitle}}</h1>
       <h2>{{siteDescription}}</h2>

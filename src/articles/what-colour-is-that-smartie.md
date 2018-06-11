@@ -3,6 +3,7 @@ title: What Colour Is That Smartie?
 layout: article.njk
 tags: coding
 created: 2016-12-30T12:00:00
+navImage: SmartieMandala-1.png
 ---
 
 When I was a child, Smarties were brightly coloured, candy coated, chocolate ovoids and they still are. Back then, they came in cylindrical tubes with a letter of the alphabet on the inside of the lid. I remember pink, purple, green, yellow, orange, red, light brown and dark brown Smarties. Later on, the manufacturer (Nestl&eacute;) replaced light brown with blue - a milestone in my childhood.

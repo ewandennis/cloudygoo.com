@@ -3,6 +3,7 @@ title: 'Cephalopodaphilia: Just The Facts'
 layout: article.njk
 tags: visuals
 created: 2015-04-29T12:00:00
+navImage: cephalopoaphelia-cropped.jpg
 ---
 
 I like tentacles.  They're dextrous, they have suckers and they move in the most deliciously creepy way.  I also have a long-running interest in something called 'procedural generation': using software and mathematics together to produce visuals.  I recently built some procedurally-generated tentacles as a sort of visual experiment.
