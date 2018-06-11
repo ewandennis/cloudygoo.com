@@ -2,6 +2,7 @@
 title: Humans Suck At Numbers
 layout: article.njk
 tags: coding
+created: 2017-03-25T12:00:00
 ---
 
 #### Requirements For Human-Centric Record Locators

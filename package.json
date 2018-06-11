@@ -17,6 +17,7 @@
     "metalsmith-assets": "^0.1.0",
     "metalsmith-collections": "^0.9.0",
     "metalsmith-debug": "^1.2.0",
+    "metalsmith-each": "^0.1.1",
     "metalsmith-in-place": "^4.1.1",
     "metalsmith-layouts": "^2.1.0",
     "metalsmith-markdown": "^0.2.2",
