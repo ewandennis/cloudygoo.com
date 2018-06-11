@@ -18,20 +18,25 @@ h1 {
 }
 
 h2 {
-  font-size: 30pt;
+  font-size: 22pt;
   line-height: 2.5rem;
 }
 
 h3 {
-  font-size: 28pt;
+  font-size: 18pt;
 }
 
 h4 {
-  font-size: 26pt;
+  font-size: 14pt;
 }
 
 h5 {
-  font-size: 24pt;
+  font-size: 16pt;
+}
+
+pre {
+  white-space: pre-wrap;
+  font-size: 12pt;
 }
 
 img {
@@ -108,7 +113,7 @@ main {
   color: #3A4145;
 }
 
-main h1 {
+main h1, main h2, main h3, main h4, main h5 {
   color: #50585d;
 }
 
@@ -143,10 +148,47 @@ main.error {
     width: 100%;
     height: auto;
     margin: 0px;
+    padding: 3rem 0 1.5rem 0;
   }
 
   main {
     margin-left: 0px;
     padding: 2.5rem 2.5rem 0 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14pt;
+  }
+
+  p {
+    line-height: 28px;
+  }
+
+  h1 {
+    font-size: 20pt;
+    line-height: 2rem;
+  }
+
+  h2 {
+    font-size: 17pt;
+    line-height: 1.7rem;
+  }
+
+  h3 {
+    font-size: 15pt;
+    line-height: 1.5rem;
+  }
+
+  h4, h5 {
+    font-size: 14pt;
+    line-height: 1.5rem;
+  }
+
+  pre {
+    white-space: pre;
+    overflow: scroll;
+    font-size: 10pt;
   }
 }

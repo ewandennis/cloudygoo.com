@@ -36,7 +36,8 @@ Steps:
 [The demo that comes with ARCore](https://github.com/google-ar/arcore-unity-sdk/tree/master/Assets/GoogleARCore/Examples/HelloAR) lets you litter your floor with Andy androids, which is nice and all but I wanted to produce something of my own. I settled on the idea of placing a "hole" flush with a surface in the AR scene. My hole would appear like a sunken space inside a real world surface.
 
 > Now we know how many holes it takes to fill the Albert hall.
-> - The Beatles
+>
+> \- The Beatles (1967)
 
 ### Step 1. Build An Inside-out Box
 
@@ -109,7 +110,7 @@ Stencil {
 }
 ```
 
-[Here's a whole surface shader which honours the stencil buffer] (https://gist.github.com/ewandennis/84167e6083940e6dc1401adb876a802d).
+[Here's a whole surface shader which honours the stencil buffer](https://gist.github.com/ewandennis/84167e6083940e6dc1401adb876a802d).
 
 ### Step 4: Finishing Up
 
