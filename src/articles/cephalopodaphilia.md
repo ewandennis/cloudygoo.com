@@ -16,7 +16,7 @@ If I were thou, I'd call me Us.
 
 ![](/media/cephalopods.png)
 
-I wrote [a separate technical article](/cephalopodaphilia-tech-details) talking about how these things work.  The less invested reader can just gawp at the results, creepy as they are:
+I wrote [a separate technical article](../cephalopodaphilia-tech-details) talking about how these things work.  The less invested reader can just gawp at the results, creepy as they are:
 
 <script src="/js/Processing.js/processing.min.js"></script>
 <canvas data-processing-sources="/media/Ceph6.pde"></canvas>
