@@ -15,7 +15,6 @@ deploy:
   cache_control: max-age=86400
   local_dir: build
   skip_cleanup: true
-  acl: public_read
 after_deploy:
 - aws cloudfront create-invalidation --distribution-id $CF_DISTRO_ID --paths "/*"
 notifications:
